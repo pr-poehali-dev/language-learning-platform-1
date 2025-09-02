@@ -32,8 +32,16 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto text-center max-w-4xl">
+      <section className="py-20 px-4 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-purple-50">
+          <img 
+            src="/img/eeb846de-891d-493e-99a7-b6767d1530d4.jpg" 
+            alt="" 
+            className="w-full h-full object-cover opacity-10"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-r from-white/80 to-transparent"></div>
+        <div className="container mx-auto text-center max-w-4xl relative z-10">
           <div className="mb-8">
             <Badge className="mb-4 bg-gradient-to-r from-coral/20 to-mint/20 text-coral border-coral/30">
               Онлайн обучение языкам
@@ -71,8 +79,16 @@ export default function Index() {
       </section>
 
       {/* Courses Section */}
-      <section id="courses" className="py-20 px-4 bg-white">
-        <div className="container mx-auto">
+      <section id="courses" className="py-20 px-4 bg-white relative overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src="/img/9baec9bc-dc5e-456b-82b0-bd5f3c3090e2.jpg" 
+            alt="" 
+            className="w-full h-full object-cover opacity-5"
+          />
+        </div>
+        <div className="absolute inset-0 bg-white/90"></div>
+        <div className="container mx-auto relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-montserrat font-bold text-gray-900 mb-4">Наши курсы</h2>
             <p className="text-gray-600 font-open-sans text-lg max-w-2xl mx-auto">
@@ -131,8 +147,16 @@ export default function Index() {
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing" className="py-20 px-4 bg-gradient-to-br from-gray-50 to-white">
-        <div className="container mx-auto">
+      <section id="pricing" className="py-20 px-4 relative overflow-hidden">
+        <div className="absolute inset-0">
+          <img 
+            src="/img/b305a3e7-171a-49df-8632-b42f1f31e8e8.jpg" 
+            alt="" 
+            className="w-full h-full object-cover opacity-8"
+          />
+        </div>
+        <div className="absolute inset-0 bg-gradient-to-br from-white/95 to-gray-50/95"></div>
+        <div className="container mx-auto relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-montserrat font-bold text-gray-900 mb-4">Тарифные планы</h2>
             <p className="text-gray-600 font-open-sans text-lg">
@@ -195,8 +219,9 @@ export default function Index() {
       </section>
 
       {/* Reviews Section */}
-      <section id="reviews" className="py-20 px-4 bg-white">
-        <div className="container mx-auto">
+      <section id="reviews" className="py-20 px-4 bg-gradient-to-br from-coral/5 to-mint/5 relative">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23FF6B6B" fill-opacity="0.03"%3E%3Ccircle cx="30" cy="30" r="3"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-40"></div>
+        <div className="container mx-auto relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-montserrat font-bold text-gray-900 mb-4">Отзывы студентов</h2>
             <p className="text-gray-600 font-open-sans text-lg">
@@ -275,8 +300,9 @@ export default function Index() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-3xl">
+      <section id="faq" className="py-20 px-4 bg-gradient-to-br from-purple/5 to-mint/5 relative">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%2345B7D1" fill-opacity="0.04"%3E%3Cpath d="M20 20L0 0h40z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50"></div>
+        <div className="container mx-auto max-w-3xl relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-montserrat font-bold text-gray-900 mb-4">Часто задаваемые вопросы</h2>
             <p className="text-gray-600 font-open-sans text-lg">
@@ -325,8 +351,9 @@ export default function Index() {
       </section>
 
       {/* Contacts Section */}
-      <section id="contacts" className="py-20 px-4 bg-white">
-        <div className="container mx-auto max-w-4xl">
+      <section id="contacts" className="py-20 px-4 bg-gradient-to-br from-white to-gray-50 relative">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23DD34D6" fill-opacity="0.02"%3E%3Cpath d="M0 0h80v80H0z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-60"></div>
+        <div className="container mx-auto max-w-4xl relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-montserrat font-bold text-gray-900 mb-4">Контакты</h2>
             <p className="text-gray-600 font-open-sans text-lg">
